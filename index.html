@@ -1,14 +1,196 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite + React + TS</title>
-	</head>
+		<meta name="theme-color" content="#07090e" />
+		<meta name="color-scheme" content="dark" />
+		<meta name="author" content="Comunidade Engenharia de Software" />
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+		<meta
+			name="description"
+			content="Participe da comunidade de Engenharia de Software no WhatsApp: grupo gratuito para estudantes e devs sobre programação, carreira tech, IA e DevOps."
+		/>
+		<meta
+			name="keywords"
+			content="engenharia de software, comunidade de engenharia de software, grupo de engenharia de software, grupo de tecnologia, grupo de programação, estudantes de tecnologia, desenvolvimento de software, carreira em tecnologia, comunidade tech"
+		/>
 
+		<title>Engenharia de Software | Comunidade e Grupo no WhatsApp</title>
+		<link rel="canonical" href="https://engsoftware.ailton.dev.br/" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<meta property="og:title" content="Engenharia de Software | Comunidade e Grupo no WhatsApp" />
+		<meta
+			property="og:description"
+			content="Comunidade brasileira e grupo de Engenharia de Software no WhatsApp para aprender programação, carreira tech, IA, DevOps e arquitetura."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://engsoftware.ailton.dev.br/" />
+		<meta property="og:site_name" content="Engenharia de Software" />
+		<meta property="og:locale" content="pt_BR" />
+		<meta property="og:image" content="https://engsoftware.ailton.dev.br/social-card.png" />
+		<meta property="og:image:secure_url" content="https://engsoftware.ailton.dev.br/social-card.png" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:alt" content="Comunidade Engenharia de Software para quem vive tecnologia" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Engenharia de Software | Comunidade e Grupo no WhatsApp" />
+		<meta
+			name="twitter:description"
+			content="Grupo brasileiro no WhatsApp para aprender e compartilhar sobre programação, desenvolvimento de software e carreira tech."
+		/>
+		<meta name="twitter:image" content="https://engsoftware.ailton.dev.br/social-card.png" />
+		<meta name="twitter:image:alt" content="Comunidade Engenharia de Software para quem vive tecnologia" />
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "Organization",
+						"@id": "https://engsoftware.ailton.dev.br/#organization",
+						"name": "Engenharia de Software",
+						"url": "https://engsoftware.ailton.dev.br/",
+						"description": "Comunidade brasileira de Engenharia de Software no WhatsApp para estudantes, desenvolvedores iniciantes e entusiastas de tecnologia.",
+						"knowsAbout": [
+							"Engenharia de software",
+							"Programação",
+							"Desenvolvimento de software",
+							"Arquitetura de software",
+							"Inteligência artificial",
+							"DevOps",
+							"Carreira em tecnologia"
+						]
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://engsoftware.ailton.dev.br/#website",
+						"url": "https://engsoftware.ailton.dev.br/",
+						"name": "Comunidade Engenharia de Software",
+						"inLanguage": "pt-BR",
+						"publisher": { "@id": "https://engsoftware.ailton.dev.br/#organization" }
+					},
+					{
+						"@type": "WebPage",
+						"@id": "https://engsoftware.ailton.dev.br/#webpage",
+						"url": "https://engsoftware.ailton.dev.br/",
+						"name": "Engenharia de Software | Comunidade e Grupo no WhatsApp",
+						"description": "Comunidade e grupo de Engenharia de Software no WhatsApp para estudantes, desenvolvedores iniciantes e entusiastas trocarem conhecimento sobre programação e desenvolvimento de software.",
+						"isPartOf": { "@id": "https://engsoftware.ailton.dev.br/#website" },
+						"about": { "@id": "https://engsoftware.ailton.dev.br/#organization" },
+						"inLanguage": "pt-BR",
+						"isAccessibleForFree": true,
+						"primaryImageOfPage": {
+							"@type": "ImageObject",
+							"url": "https://engsoftware.ailton.dev.br/social-card.png",
+							"width": 1200,
+							"height": 630
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "https://engsoftware.ailton.dev.br/#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "O que é a comunidade Engenharia de Software?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "É uma comunidade brasileira no WhatsApp para estudantes, desenvolvedores e entusiastas trocarem conhecimento sobre programação, engenharia de software, carreira tech e novas tecnologias."
+								}
+							},
+							{
+								"@type": "Question",
+								"name": "Quem pode entrar no grupo?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Qualquer pessoa interessada em tecnologia pode participar, independentemente do curso, nível de experiência ou área de atuação."
+								}
+							},
+							{
+								"@type": "Question",
+								"name": "O grupo é gratuito?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Sim. A participação na comunidade Engenharia de Software é gratuita."
+								}
+							},
+							{
+								"@type": "Question",
+								"name": "Quais assuntos são discutidos?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Programação, desenvolvimento de software, frontend, backend, arquitetura, inteligência artificial, DevOps, cloud, dados, produtos digitais, carreira e mercado de tecnologia."
+								}
+							},
+							{
+								"@type": "Question",
+								"name": "O grupo é apenas para estudantes de Engenharia de Software?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Não. O grupo também recebe estudantes de outras áreas, desenvolvedores iniciantes, profissionais e qualquer pessoa que queira aprender e contribuir."
+								}
+							},
+							{
+								"@type": "Question",
+								"name": "Como entrar no grupo de WhatsApp?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Use um dos botões Entrar no grupo do WhatsApp desta página. O link abrirá o WhatsApp para você confirmar sua entrada na comunidade."
+								}
+							},
+							{
+								"@type": "Question",
+								"name": "Por que participar da comunidade?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "Para tirar dúvidas, compartilhar experiências, descobrir materiais e oportunidades, receber feedback sobre projetos e fazer networking com outras pessoas interessadas em desenvolvimento de software e carreira em tecnologia."
+								}
+							}
+						]
+					}
+				]
+			}
+		</script>
+	</head>
 	<body>
-		<div id="root"></div>
+		<div id="root">
+			<main class="crawler-fallback">
+				<section>
+					<h1>Comunidade de Engenharia de Software para quem vive tecnologia</h1>
+					<p>
+						Engenharia de Software é uma comunidade brasileira no WhatsApp
+						para estudantes, desenvolvedores iniciantes e entusiastas
+						trocarem conhecimento sobre programação, desenvolvimento de
+						software, carreira tech, IA, DevOps, arquitetura de software e
+						mercado de tecnologia.
+					</p>
+					<p>
+						O grupo de Engenharia de Software é gratuito e aberto também a
+						estudantes de Ciência da Computação, Sistemas de Informação,
+						Análise e Desenvolvimento de Sistemas e outras áreas de
+						tecnologia.
+					</p>
+					<h2>Grupo de programação e comunidade de tecnologia</h2>
+					<p>
+						Participe para tirar dúvidas, conversar sobre backend, frontend,
+						full stack, cloud e infraestrutura, compartilhar projetos,
+						portfólio e GitHub, encontrar materiais e fazer networking.
+					</p>
+					<a
+						href="https://chat.whatsapp.com/EdhN147xlcQFfURCc0Vg6p"
+						aria-label="Entrar no grupo Engenharia de Software no WhatsApp"
+					>
+						Entrar no grupo do WhatsApp
+					</a>
+				</section>
+			</main>
+		</div>
+		<noscript>O conteúdo e o link da comunidade continuam disponíveis acima sem JavaScript.</noscript>
 		<script type="module" src="/src/react-app/main.tsx"></script>
 	</body>
 </html>

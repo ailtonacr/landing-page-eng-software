@@ -1,0 +1,30 @@
+# Engenharia de Software
+
+> Comunidade brasileira no WhatsApp para estudantes, desenvolvedores iniciantes e entusiastas de tecnologia.
+
+URL oficial: https://engsoftware.ailton.dev.br/
+Idioma: português brasileiro
+Acesso: gratuito
+
+## Sobre
+
+Engenharia de Software é uma comunidade brasileira no WhatsApp para troca de conhecimento sobre programação, desenvolvimento de software, carreira tech, inteligência artificial, DevOps, arquitetura de software e mercado de tecnologia.
+
+## Público
+
+- Estudantes de Engenharia de Software e outras áreas de tecnologia
+- Desenvolvedores iniciantes
+- Pessoas estudando programação
+- Profissionais e entusiastas de tecnologia
+
+## Temas
+
+Programação, backend, frontend, full stack, arquitetura de software, IA, automação, DevOps, cloud, infraestrutura, projetos, portfólio, GitHub, networking e carreira em tecnologia.
+
+## Página principal
+
+- https://engsoftware.ailton.dev.br/
+
+## Sitemap
+
+- https://engsoftware.ailton.dev.br/sitemap.xml

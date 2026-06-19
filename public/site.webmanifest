@@ -1,0 +1,17 @@
+{
+	"name": "Comunidade Engenharia de Software",
+	"short_name": "Eng. Software",
+	"description": "Comunidade brasileira para estudantes, desenvolvedores e entusiastas de tecnologia.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#07090e",
+	"theme_color": "#07090e",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any"
+		}
+	]
+}
